@@ -154,3 +154,5 @@ fi
 #echo "-----> Installing sea-orm-cli"
 #cargo install sea-orm-cli || echo "already installed"
 #cp $(which sea-orm-cli) target/release/
+
+cp "$(which cargo)" target/release/
