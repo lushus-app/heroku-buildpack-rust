@@ -150,7 +150,3 @@ if [ $RUST_INSTALL_DIESEL -eq 1 ]; then
   cargo install diesel_cli $DIESEL_FLAGS || echo "already installed"
   cp $(which diesel) target/release/
 fi
-
-echo "-----> Installing sea-orm-cli"
-cargo install sea-orm-cli || echo "already installed"
-cp $(which sea-orm-cli) target/release/
